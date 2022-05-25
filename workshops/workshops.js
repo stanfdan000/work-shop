@@ -1,5 +1,5 @@
 import { checkAuth, logout, getClass, deleteParticipants } from '../fetch-utils.js';
-import { renderCLass } from '../render-utils';
+import { renderCLass } from '../render-utils.js';
 
 checkAuth();
 

@@ -37,7 +37,7 @@ export async function logout() {
     return (window.location.href = '../');
 }
 export async function getClass() {
-    const response = await client.from('Class').select('*, participants');
+    const response = await client.from('Class').select('*, participants(*)');
     return response.data;
 }
 export async function createParticipants(participants) {
