@@ -48,6 +48,3 @@ export async function deleteParticipants(id) {
     const response = await client.from('participants').delete().eq('id', id);
     return response.data;
 }
-// function checkError({ data, error }) {
-//     return error ? console.error(error) : data;
-// }
