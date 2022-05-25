@@ -1,7 +1,7 @@
 import { createParticipants, getClass } from '../fetch-utils.js';
 import { renderOption } from '../render-utils.js';
 
-const pickClass = document.getElementById('Class');
+//const pickClass = document.getElementById('Class');
 const formParticipants = document.getElementById('participant');
 const select = document.querySelector('select');
 
